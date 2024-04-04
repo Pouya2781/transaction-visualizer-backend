@@ -11,7 +11,7 @@ const cors = require("cors");
 
 app.use(express.json());
 
-// app.use(logger("dev"));
+app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
@@ -26,8 +26,4 @@ app.use("/", indexRouter);
 app.use("/users", usersRouter);
 app.use("/accounts", accountsRouter);
 
-// module.exports = app;
-
-app.listen(3000, () => {
-  console.log(`Example app listening on port ${3000}`);
-});
+module.exports = app;

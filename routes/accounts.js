@@ -435,10 +435,8 @@ router.get("/", function (req, res, next) {
 router.post("/incoming", function (req, res, next) {
   const accountId = req.body["id"];
   console.log(req.body);
-  console.log(
-    transactionData.filter((x) => x.destinationAccountId == accountId)
-  );
-  res.send(transactionData.filter((x) => x.destinationAccountId == accountId));
+
+  res.send(transactionData.filter((x) => x.destinationAccount == accountId));
 });
 
 router.post("/outgoing", function (req, res, next) {
