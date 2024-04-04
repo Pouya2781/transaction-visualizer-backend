@@ -8,7 +8,7 @@ const transactionData = [
     destinationAccount: 6039548046,
     amount: "500,000,000",
     date: "1399/04/23",
-    transactionID: 153348811341,
+    transactionId: 153348811341,
     type: "پایا",
   },
   {
@@ -16,7 +16,7 @@ const transactionData = [
     destinationAccount: 5287517379,
     amount: "100,000,000",
     date: "1399/04/23",
-    transactionID: 192524206627,
+    transactionId: 192524206627,
     type: "پایا",
   },
   {
@@ -24,7 +24,7 @@ const transactionData = [
     destinationAccount: 5718373092,
     amount: "200,000,000",
     date: "1399/04/27",
-    transactionID: 113480622054,
+    transactionId: 113480622054,
     type: "پایا",
   },
   {
@@ -32,7 +32,7 @@ const transactionData = [
     destinationAccount: 9862369812,
     amount: "300,000,000",
     date: "1399/04/28",
-    transactionID: 114556773378,
+    transactionId: 114556773378,
     type: "پایا",
   },
   {
@@ -40,7 +40,7 @@ const transactionData = [
     destinationAccount: 1205418051,
     amount: "50,000,000",
     date: "1399/04/29",
-    transactionID: 185136982986,
+    transactionId: 185136982986,
     type: "کارت به کارت",
   },
   {
@@ -48,7 +48,7 @@ const transactionData = [
     destinationAccount: 3714493428,
     amount: "350,000,000",
     date: "1399/04/30",
-    transactionID: 197303042408,
+    transactionId: 197303042408,
     type: "پایا",
   },
   {
@@ -56,7 +56,7 @@ const transactionData = [
     destinationAccount: 3714493428,
     amount: "2,000,000,000",
     date: "1399/04/31",
-    transactionID: 173993949660,
+    transactionId: 173993949660,
     type: "ساتنا",
   },
   {
@@ -64,7 +64,7 @@ const transactionData = [
     destinationAccount: 7434776097,
     amount: "800,000,000",
     date: "1399/04/31",
-    transactionID: 107213392290,
+    transactionId: 107213392290,
     type: "پایا",
   },
   {
@@ -72,7 +72,7 @@ const transactionData = [
     destinationAccount: 7434776097,
     amount: "1,000,000,000",
     date: "1399/04/31",
-    transactionID: 131554897007,
+    transactionId: 131554897007,
     type: "ساتنا",
   },
   {
@@ -80,7 +80,7 @@ const transactionData = [
     destinationAccount: 7434776097,
     amount: "2,000,000,000",
     date: "1399/05/01",
-    transactionID: 163090175418,
+    transactionId: 163090175418,
     type: "ساتنا",
   },
   {
@@ -88,7 +88,7 @@ const transactionData = [
     destinationAccount: 3084026274,
     amount: "4,000,000,000",
     date: "1399/05/02",
-    transactionID: 126328028392,
+    transactionId: 126328028392,
     type: "ساتنا",
   },
   {
@@ -96,15 +96,15 @@ const transactionData = [
     destinationAccount: 3084026274,
     amount: "200,000,000",
     date: "1399/05/03",
-    transactionID: 133232291681,
+    transactionId: 133232291681,
     type: "پایا",
   },
 ];
 
 const accountsData = [
   {
-    accountID: 6534454617,
-    cardID: "6104335000000190",
+    accountId: 6534454617,
+    cardId: "6104335000000190",
     sheba: "IR120778801496000000198",
     accountType: "پس انداز",
     branchTelephone: 55638667,
@@ -112,11 +112,11 @@ const accountsData = [
     branchName: "گلوبندک",
     ownerName: "افسر",
     ownerFamilyName: "طباطبایی",
-    ownerID: 1227114110,
+    ownerId: 1227114110,
   },
   {
-    accountID: 4000000028,
-    cardID: "6037699000000020",
+    accountId: 4000000028,
+    cardId: "6037699000000020",
     sheba: "IR033880987114000000028",
     accountType: "سپرده",
     branchTelephone: 77547230,
@@ -124,11 +124,11 @@ const accountsData = [
     branchName: "امیر شرفی",
     ownerName: "ایرج",
     ownerFamilyName: "مددی",
-    ownerID: 3658507956,
+    ownerId: 3658507956,
   },
   {
-    accountID: 3000000406,
-    cardID: "6221060000000400",
+    accountId: 3000000406,
+    cardId: "6221060000000400",
     sheba: "IR248204855973000000406",
     accountType: "سپرده",
     branchTelephone: 22760489,
@@ -137,11 +137,11 @@ const accountsData = [
     branchName: "ديباجی جنوبی",
     ownerName: "ترانه",
     ownerFamilyName: "برزگری",
-    ownerID: 233079137,
+    ownerId: 233079137,
   },
   {
-    accountID: 4000000290,
-    cardID: "6219867000000290",
+    accountId: 4000000290,
+    cardId: "6219867000000290",
     sheba: "IR806364680364000000290",
     accountType: "جاری",
     branchTelephone: 22960013,
@@ -150,11 +150,11 @@ const accountsData = [
     branchName: "میدان حسین آباد",
     ownerName: "ترمه",
     ownerFamilyName: "نصیری",
-    ownerID: 3472758002,
+    ownerId: 3472758002,
   },
   {
-    accountID: 6039548046,
-    cardID: "6104333000000360",
+    accountId: 6039548046,
+    cardId: "6104333000000360",
     sheba: "IR437427012782000000361",
     accountType: "پس انداز",
     branchTelephone: 33502628,
@@ -162,11 +162,11 @@ const accountsData = [
     branchName: "آبشار",
     ownerName: "ارژنگ",
     ownerFamilyName: "مرتضوی",
-    ownerID: 8260281348,
+    ownerId: 8260281348,
   },
   {
-    accountID: 9000000331,
-    cardID: "6221062000000330",
+    accountId: 9000000331,
+    cardId: "6221062000000330",
     sheba: "IR382666702669000000331",
     accountType: "پس انداز",
     branchTelephone: 22237244,
@@ -174,11 +174,11 @@ const accountsData = [
     branchName: "خيابان بوعلی",
     ownerName: "تینا",
     ownerFamilyName: "اشتیانی",
-    ownerID: 9650799964,
+    ownerId: 9650799964,
   },
   {
-    accountID: 2000000307,
-    cardID: "5028064000000300",
+    accountId: 2000000307,
+    cardId: "5028064000000300",
     sheba: "IR515705817182000000307",
     accountType: "سپرده",
     branchTelephone: 77728343,
@@ -186,11 +186,11 @@ const accountsData = [
     branchName: "تهرانپارس - رشید",
     ownerName: "ارین",
     ownerFamilyName: "نجفی",
-    ownerID: 2383698300,
+    ownerId: 2383698300,
   },
   {
-    accountID: 3000000352,
-    cardID: "6104335000000350",
+    accountId: 3000000352,
+    cardId: "6104335000000350",
     sheba: "IR447139041943000000352",
     accountType: "جاری",
     branchTelephone: 55898061,
@@ -198,11 +198,11 @@ const accountsData = [
     branchName: "سرای آزادی",
     ownerName: "حمید",
     ownerFamilyName: "یثربی",
-    ownerID: 1782886202,
+    ownerId: 1782886202,
   },
   {
-    accountID: 8000000459,
-    cardID: "6395999000000450",
+    accountId: 8000000459,
+    cardId: "6395999000000450",
     sheba: "IR999469685408000000459",
     accountType: "جاری",
     branchTelephone: 77227190,
@@ -211,11 +211,11 @@ const accountsData = [
     branchName: "فرجام شرقی",
     ownerName: "خسرو",
     ownerFamilyName: "صفوی",
-    ownerID: 5674868748,
+    ownerId: 5674868748,
   },
   {
-    accountID: 8000000402,
-    cardID: "6393468000000400",
+    accountId: 8000000402,
+    cardId: "6393468000000400",
     sheba: "IR666786156808000000402",
     accountType: "جاری",
     branchTelephone: 66571376,
@@ -224,11 +224,11 @@ const accountsData = [
     branchName: "امیر آباد شمالی",
     ownerName: "دارا",
     ownerFamilyName: "زمان زاده",
-    ownerID: 6935043332,
+    ownerId: 6935043332,
   },
   {
-    accountID: 5287517379,
-    cardID: "6219867000000430",
+    accountId: 5287517379,
+    cardId: "6219867000000430",
     sheba: "IR768572504519000000439",
     accountType: "سپرده",
     branchTelephone: 55481172,
@@ -236,11 +236,11 @@ const accountsData = [
     branchName: "میدان قزوین",
     ownerName: "دریا",
     ownerFamilyName: "حسین زاده",
-    ownerID: 9823618218,
+    ownerId: 9823618218,
   },
   {
-    accountID: 9862369812,
-    cardID: "6104336000000280",
+    accountId: 9862369812,
+    cardId: "6104336000000280",
     sheba: "IR555340066618000000280",
     accountType: "جاری",
     branchTelephone: 88556268,
@@ -249,11 +249,11 @@ const accountsData = [
     branchName: "استاد مطهری",
     ownerName: "کامران",
     ownerFamilyName: "رضایی",
-    ownerID: 2684955349,
+    ownerId: 2684955349,
   },
   {
-    accountID: 5718373092,
-    cardID: "6221065000000320",
+    accountId: 5718373092,
+    cardId: "6221065000000320",
     sheba: "IR254972538744000000320",
     accountType: "پس انداز",
     branchTelephone: 66362188,
@@ -261,11 +261,11 @@ const accountsData = [
     branchName: "آزادی",
     ownerName: "کیانوش",
     ownerFamilyName: "قاضی",
-    ownerID: 1181323213,
+    ownerId: 1181323213,
   },
   {
-    accountID: 1205418051,
-    cardID: "6104332000000060",
+    accountId: 1205418051,
+    cardId: "6104332000000060",
     sheba: "IR782956669947000000060",
     accountType: "سپرده",
     branchTelephone: 33769073,
@@ -273,11 +273,11 @@ const accountsData = [
     branchName: "دولت آباد",
     ownerName: "ژیلا",
     ownerFamilyName: "زمان زاده",
-    ownerID: 4398373386,
+    ownerId: 4398373386,
   },
   {
-    accountID: 1000000236,
-    cardID: "6037697000000230",
+    accountId: 1000000236,
+    cardId: "6037697000000230",
     sheba: "IR311031297571000000236",
     accountType: "جاری",
     branchTelephone: 55707330,
@@ -285,11 +285,11 @@ const accountsData = [
     branchName: "امین الملک",
     ownerName: "ساناز",
     ownerFamilyName: "حسن پور",
-    ownerID: 8655501965,
+    ownerId: 8655501965,
   },
   {
-    accountID: 3714493428,
-    cardID: "6280233000000450",
+    accountId: 3714493428,
+    cardId: "6280233000000450",
     sheba: "IR590757191926000000453",
     accountType: "سپرده",
     branchTelephone: 55746611,
@@ -297,11 +297,11 @@ const accountsData = [
     branchName: "اذری",
     ownerName: "ستایش",
     ownerFamilyName: "سالاری",
-    ownerID: 8083189094,
+    ownerId: 8083189094,
   },
   {
-    accountID: 7000000069,
-    cardID: "5041728000000060",
+    accountId: 7000000069,
+    cardId: "5041728000000060",
     sheba: "IR537707653587000000069",
     accountType: "پس انداز",
     branchTelephone: 33136732,
@@ -309,11 +309,11 @@ const accountsData = [
     branchName: "17شهریور",
     ownerName: "نقی",
     ownerFamilyName: "طباطبایی",
-    ownerID: 7518497901,
+    ownerId: 7518497901,
   },
   {
-    accountID: 4727992815,
-    cardID: "5028064000000040",
+    accountId: 4727992815,
+    cardId: "5028064000000040",
     sheba: "IR129871182765000000045",
     accountType: "جاری",
     branchTelephone: 55601544,
@@ -321,11 +321,11 @@ const accountsData = [
     branchName: "مولوی غربی",
     ownerName: "نگار",
     ownerFamilyName: "احمدی",
-    ownerID: 1247145263,
+    ownerId: 1247145263,
   },
   {
-    accountID: 9000000487,
-    cardID: "5028066000000480",
+    accountId: 9000000487,
+    cardId: "5028066000000480",
     sheba: "IR541008141089000000487",
     accountType: "سپرده",
     branchTelephone: 66067052,
@@ -334,11 +334,11 @@ const accountsData = [
     branchName: "آزادی - یادگار",
     ownerName: "مهتاب",
     ownerFamilyName: "قاضی",
-    ownerID: 466444575,
+    ownerId: 466444575,
   },
   {
-    accountID: 7434776097,
-    cardID: "6219869000000180",
+    accountId: 7434776097,
+    cardId: "6219869000000180",
     sheba: "IR955348247339000000184",
     accountType: "سپرده",
     branchTelephone: 22234427,
@@ -346,11 +346,11 @@ const accountsData = [
     branchName: "قیطریه",
     ownerName: "بامداد",
     ownerFamilyName: "برزگری",
-    ownerID: 7333935716,
+    ownerId: 7333935716,
   },
   {
-    accountID: 7000000021,
-    cardID: "6037999000000020",
+    accountId: 7000000021,
+    cardId: "6037999000000020",
     sheba: "IR357530402617000000021",
     accountType: "جاری",
     branchTelephone: 55000069,
@@ -358,11 +358,11 @@ const accountsData = [
     branchName: "خانی آباد نو",
     ownerName: "بهناز",
     ownerFamilyName: "اشتیانی",
-    ownerID: 3184365126,
+    ownerId: 3184365126,
   },
   {
-    accountID: 3084026274,
-    cardID: "6104333000000000",
+    accountId: 3084026274,
+    cardId: "6104333000000000",
     sheba: "IR378370321425000000008",
     accountType: "پس انداز",
     branchTelephone: 66057406,
@@ -371,11 +371,11 @@ const accountsData = [
     branchName: "آزادی",
     ownerName: "انوش",
     ownerFamilyName: "ابراهیمی",
-    ownerID: 2746339440,
+    ownerId: 2746339440,
   },
   {
-    accountID: 4000000400,
-    cardID: "5028063000000400",
+    accountId: 4000000400,
+    cardId: "5028063000000400",
     sheba: "IR508577914084000000400",
     accountType: "جاری",
     branchTelephone: 88717727,
@@ -384,11 +384,11 @@ const accountsData = [
     branchName: "احمد قصیر",
     ownerName: "پرهام",
     ownerFamilyName: "عسگرپور",
-    ownerID: 5125488187,
+    ownerId: 5125488187,
   },
   {
-    accountID: 1000000358,
-    cardID: "5028067000000350",
+    accountId: 1000000358,
+    cardId: "5028067000000350",
     sheba: "IR463499058601000000358",
     accountType: "سپرده",
     branchTelephone: 56696077,
@@ -397,11 +397,11 @@ const accountsData = [
     branchName: "اسلامشهر",
     ownerName: "پیروز",
     ownerFamilyName: "شکاری",
-    ownerID: 9710095137,
+    ownerId: 9710095137,
   },
   {
-    accountID: 8000000190,
-    cardID: "6221064000000190",
+    accountId: 8000000190,
+    cardId: "6221064000000190",
     sheba: "IR401698532368000000190",
     accountType: "جاری",
     branchTelephone: 46889990,
@@ -409,11 +409,11 @@ const accountsData = [
     branchName: "شهر قدس",
     ownerName: "مانی",
     ownerFamilyName: "عبدلی",
-    ownerID: 8320298705,
+    ownerId: 8320298705,
   },
   {
-    accountID: 9000000405,
-    cardID: "6395995000000400",
+    accountId: 9000000405,
+    cardId: "6395995000000400",
     sheba: "IR500379357299000000405",
     accountType: "پس انداز",
     branchTelephone: 22844370,
@@ -421,29 +421,29 @@ const accountsData = [
     branchName: "خواجه عبدالله انصاری",
     ownerName: "شیرین",
     ownerFamilyName: "ابراهیم نژاد",
-    ownerID: 4031019294,
+    ownerId: 4031019294,
   },
 ];
 
 /* GET home page. */
 router.get("/", function (req, res, next) {
-  const accountID = req.query["id"];
+  const accountId = req.query["id"];
 
-  res.send(accountsData.find((x) => x.accountID == accountID));
+  res.send(accountsData.find((x) => x.accountId == accountId));
 });
 
 router.post("/incoming", function (req, res, next) {
-  const accountID = req.body["id"];
+  const accountId = req.body["id"];
   console.log(req.body);
-  console.log(transactionData.filter((x) => x.destinationAccount == accountID));
-  res.send(transactionData.filter((x) => x.destinationAccount == accountID));
+  console.log(transactionData.filter((x) => x.destinationAccount == accountId));
+  res.send(transactionData.filter((x) => x.destinationAccount == accountId));
 });
 
 router.post("/outgoing", function (req, res, next) {
-  const accountID = req.body["id"];
+  const accountId = req.body["id"];
   console.log(req.body);
 
-  res.send(transactionData.filter((x) => x.sourceAccount == accountID));
+  res.send(transactionData.filter((x) => x.sourceAccount == accountId));
 });
 
 module.exports = router;
