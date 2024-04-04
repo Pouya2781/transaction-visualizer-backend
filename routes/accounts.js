@@ -4,96 +4,96 @@ var router = express.Router();
 
 const transactionData = [
   {
-    sourceAccount: 6534454617,
-    destinationAccount: 6039548046,
+    sourceAccountId: 6534454617,
+    destinationAccountId: 6039548046,
     amount: "500,000,000",
     date: "1399/04/23",
     transactionId: 153348811341,
     type: "پایا",
   },
   {
-    sourceAccount: 6039548046,
-    destinationAccount: 5287517379,
+    sourceAccountId: 6039548046,
+    destinationAccountId: 5287517379,
     amount: "100,000,000",
     date: "1399/04/23",
     transactionId: 192524206627,
     type: "پایا",
   },
   {
-    sourceAccount: 6039548046,
-    destinationAccount: 5718373092,
+    sourceAccountId: 6039548046,
+    destinationAccountId: 5718373092,
     amount: "200,000,000",
     date: "1399/04/27",
     transactionId: 113480622054,
     type: "پایا",
   },
   {
-    sourceAccount: 6039548046,
-    destinationAccount: 9862369812,
+    sourceAccountId: 6039548046,
+    destinationAccountId: 9862369812,
     amount: "300,000,000",
     date: "1399/04/28",
     transactionId: 114556773378,
     type: "پایا",
   },
   {
-    sourceAccount: 5287517379,
-    destinationAccount: 1205418051,
+    sourceAccountId: 5287517379,
+    destinationAccountId: 1205418051,
     amount: "50,000,000",
     date: "1399/04/29",
     transactionId: 185136982986,
     type: "کارت به کارت",
   },
   {
-    sourceAccount: 9862369812,
-    destinationAccount: 3714493428,
+    sourceAccountId: 9862369812,
+    destinationAccountId: 3714493428,
     amount: "350,000,000",
     date: "1399/04/30",
     transactionId: 197303042408,
     type: "پایا",
   },
   {
-    sourceAccount: 5718373092,
-    destinationAccount: 3714493428,
+    sourceAccountId: 5718373092,
+    destinationAccountId: 3714493428,
     amount: "2,000,000,000",
     date: "1399/04/31",
     transactionId: 173993949660,
     type: "ساتنا",
   },
   {
-    sourceAccount: 1205418051,
-    destinationAccount: 7434776097,
+    sourceAccountId: 1205418051,
+    destinationAccountId: 7434776097,
     amount: "800,000,000",
     date: "1399/04/31",
     transactionId: 107213392290,
     type: "پایا",
   },
   {
-    sourceAccount: 3714493428,
-    destinationAccount: 7434776097,
+    sourceAccountId: 3714493428,
+    destinationAccountId: 7434776097,
     amount: "1,000,000,000",
     date: "1399/04/31",
     transactionId: 131554897007,
     type: "ساتنا",
   },
   {
-    sourceAccount: 4727992815,
-    destinationAccount: 7434776097,
+    sourceAccountId: 4727992815,
+    destinationAccountId: 7434776097,
     amount: "2,000,000,000",
     date: "1399/05/01",
     transactionId: 163090175418,
     type: "ساتنا",
   },
   {
-    sourceAccount: 7434776097,
-    destinationAccount: 3084026274,
+    sourceAccountId: 7434776097,
+    destinationAccountId: 3084026274,
     amount: "4,000,000,000",
     date: "1399/05/02",
     transactionId: 126328028392,
     type: "ساتنا",
   },
   {
-    sourceAccount: 4727992815,
-    destinationAccount: 3084026274,
+    sourceAccountId: 4727992815,
+    destinationAccountId: 3084026274,
     amount: "200,000,000",
     date: "1399/05/03",
     transactionId: 133232291681,
@@ -435,15 +435,17 @@ router.get("/", function (req, res, next) {
 router.post("/incoming", function (req, res, next) {
   const accountId = req.body["id"];
   console.log(req.body);
-  console.log(transactionData.filter((x) => x.destinationAccount == accountId));
-  res.send(transactionData.filter((x) => x.destinationAccount == accountId));
+  console.log(
+    transactionData.filter((x) => x.destinationAccountId == accountId)
+  );
+  res.send(transactionData.filter((x) => x.destinationAccountId == accountId));
 });
 
 router.post("/outgoing", function (req, res, next) {
   const accountId = req.body["id"];
   console.log(req.body);
 
-  res.send(transactionData.filter((x) => x.sourceAccount == accountId));
+  res.send(transactionData.filter((x) => x.sourceAccountId == accountId));
 });
 
 module.exports = router;
